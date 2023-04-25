@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+using System;
+class Program {
+    static void Main(string[] args) {
+  int n = 1;
+  if(n > 1){
+    Console.WriteLine("stall is {0}:",n );
+  }
+
+  
+  int reserve = 2;
+  if(reserve < 1){
+    Console.WriteLine("The stall is reserve", reserve); 
+  }else{
+    Console.WriteLine("The stall is reserve");
+  }
+
+}
+}
